@@ -92,7 +92,7 @@ const ProjectSingleton = (function() {
 
     },
 
-    /* Extends this.pricing with new field or change existing */
+    /* Extends this.pricing with new field r change existing */
     /* callbackFunction - function that will be executed when job will be done, doesn't take any arguments */
     this.setPricing = function(participantPriceObject, callbackFunction) {
             this.isBusy = true;
